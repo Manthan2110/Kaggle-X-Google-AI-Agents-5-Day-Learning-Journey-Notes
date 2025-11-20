@@ -1,0 +1,88 @@
+<h1 align="center">📘 Day 1 - Introduction to AI Agents <br> & Building Your First Agent</h1>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Kaggle%20x%20Google-AI%20Agents%20Intensive-blue?style=flat-square" />
+  <img src="https://img.shields.io/badge/Day-1-green?style=flat-square" />
+  <img src="https://img.shields.io/badge/Topic-Agentic%20AI-orange?style=flat-square" />
+</p>
+
+---
+
+## 🚀 Overview  
+Day 1 provides a strong foundation in **Agentic AI**, covering both essential concepts and hands-on implementation.  
+You’ll learn how modern AI agents function, how they collaborate, and how to build real production-ready agents using Google’s **AI Developer Kit (ADK)** powered by **Gemini**.
+
+### This day focuses on three pillars:
+- 🧩 Understanding the Agentic AI ecosystem  
+- 🤖 Building a functional single AI agent  
+- 🔗 Scaling into a multi-agent system  
+
+---
+
+## 💡 What You’ll Learn
+
+### **1. AI Agent Fundamentals**
+- What AI agents are and how they differ from traditional prompting workflows  
+- Agent capabilities & behavior taxonomy  
+- Foundations of:
+  - Autonomy  
+  - Tool usage  
+  - Memory  
+  - Planning  
+  - Self-reflection  
+- Why **Agent Ops** is essential for:
+  - Reliability  
+  - Governance  
+  - Monitoring  
+- Security concepts:
+  - Agent identity  
+  - Constrained permissions & policies  
+  - Safe interoperability between agents  
+
+---
+
+### **2. 🛠 Hands-On Codelab 1 — Build Your First AI Agent**
+You will build a fully functional AI agent using:
+- **ADK (AI Developer Kit)**  
+- **Gemini Model**  
+- **Google Search Tool Integration**
+
+Your agent will be able to answer **real-time, web-fresh questions** using the Search API — making it more powerful than static LLM-based chat.
+
+#### ✔ Key Skills Learned
+- Agent initialization  
+- Tool definition & attachment  
+- Working with real-time external data  
+- Executing an agent loop  
+
+---
+
+### **3. 🤝 Hands-On Codelab 2 — Build a Multi-Agent System**
+Here, you'll build a **team of agents**, each with specialized skills.
+
+#### You’ll explore:
+- Multi-agent workflows  
+- Communication patterns  
+- Supervision vs. collaboration models  
+- Agent-to-agent messaging  
+
+#### Architectural Patterns:
+- Orchestrator–Worker  
+- Hierarchical Agents  
+- Peer-to-Peer Agents  
+
+#### ✔ Key Skills Learned
+- Creating specialized agents  
+- Designing agent teams  
+- Coordinating multi-agent tasks  
+- Implementing multi-agent workflows  
+
+---
+
+## 🧠 Key Takeaways
+- **Agentic AI = LLMs + Tools + Planning + Actions**  
+- External tools (Search API, APIs, DBs, etc.) massively enhance agent capabilities  
+- Multi-agent systems mimic real-world teams → more modular, scalable, and interpretable  
+- Security policies, identity, and permissions are mandatory for safe deployment  
+- **ADK** is a production-grade framework for building & deploying agents  
+
