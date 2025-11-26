@@ -49,22 +49,28 @@ This repository documents everything I learned, practiced, and built during the 
 ```bash
 📁 kaggle-google-5-day-ai-agents/
 │
-├── 📁 01-Day-1-Introduction-to-Agentic-AI
+├── 📁 Day-1-Introduction-to-Agentic-AI
 │   └── README.md
+│   └── day-1a-from-prompt-to-action.ipynb
+│   └── day-1b-agent-architectures.ipynb
 │
-├── 📁 02-Day-2-Tools-and-Actions
+├── 📁 Day-2-Tools-and-Actions
 │   └── README.md
+│   └── day-2a-agent-tools.ipynb
+│   └── day-2b-agent-tools-best-practices.ipynb
 │
-├── 📁 03-Day-3-Memory-and-Planning
+├── 📁 Day-3 Context Engineering: Sessions & Memory
 │   └── README.md
+│   └── day-3a-agent-sessions.ipynb
+│   └── day-3b-agent-memory.ipynb
 │
-├── 📁 04-Day-4-Agent-Evaluation
+├── 📁 Day-4 : Agent Observability & Agent Evaluation
 │   └── README.md
+│   └── day-4a-agent-observability.ipynb
+│   └── day-4b-agent-evaluation.ipynb
 │
-├── 📁 05-Day-5-Capstone-Project
+├── 📁 Day-5 : Agent2Agent Communication & Agent Deployment directory
 │   ├── README.md
-│   ├── architecture.png
-│   └── notebook.ipynb
 │
 ├── 📁 code-labs
 │   └── day-wise Jupyter notebooks
@@ -84,36 +90,34 @@ This repository documents everything I learned, practiced, and built during the 
 ## 📅 Day-Wise Breakdown
 
 ### **Day 1 – Introduction to Agentic AI**
-- What is an AI Agent?  
-- Agent loops, actions, tools  
-- Building the simplest agent flow  
-- Prompt engineering for agents  
-- Mini task: Build a basic reasoning agent
+- Understanding what AI Agents are & how they differ from traditional LLM apps
+- Agent loops: perception → reasoning → action → feedback
+- Building your first agent using ADK + Gemini
+- Mini Task: Create a basic single-agent reasoning workflow
 
 ---
 
-### **Day 2 – Tools & Actions**
-- Tool calling & structured outputs  
-- Connecting agents to APIs  
-- Creating multi-step workflows  
-- Mini task: Agent using multiple tools (search, calculator, dataset, etc.)
+### **Day 2 – Tools, Actions & Multi-Agent Basics**
+- Using tools: Google Search, custom APIs, structured tool schemas
+- Developing tool-aware autonomous agents
+- Introduction to multi-agent architectures (roles, communication, routing)
+- Mini Task: Build a tool-enabled agent + simple multi-agent team
 
 ---
 
 ### **Day 3 – Memory & Planning**
-- Types of memory (short-term, long-term, vector memory)  
-- Planning, subgoal creation, task decomposition  
-- Using memory to improve accuracy  
-- Mini task: Build an agent with memory & planning loop
+- Short-term, long-term, episodic, and vector-based memory systems
+- Planning: subgoals, multi-step reasoning, execution loops
+- Improving agent consistency & adaptability using memory
+- Mini Task: Build an agent with memory + a planning-driven workflow
 
 ---
 
-### **Day 4 – Evaluation**
-- Metrics for agent evaluation  
-- Reliability testing  
-- Safety & guardrails  
-- Debugging agent failures  
-- Mini task: Measure & improve an agent's performance
+### **Day 4 – Observability & Evaluation**
+- Logging, monitoring & tracing agent behavior (Agent Observability)
+- Evaluating agent reliability using metrics & structured tests
+- Safety, governance, and guardrails for agent actions & tool usage
+- Mini Task: Evaluate an agent, find weak spots, and improve performance
 
 ---
 
@@ -176,9 +180,9 @@ This workshop strengthens my ability to design **end-to-end agent workflows** an
 ---
 
 ## 📩 Connect With Me
-- **LinkedIn:** Your LinkedIn URL  
-- **Kaggle:** Your Kaggle profile  
-- **GitHub:** Your GitHub profile  
+- **LinkedIn:** [My LinkedIn profile ](https://www.linkedin.com/in/manthanjadav/)
+- **Kaggle:** [My Kaggle profile ](https://www.kaggle.com/manthan2110) 
+- **GitHub:** [My GitHub profile](https://github.com/Manthan2110)  
 
 ---
 
