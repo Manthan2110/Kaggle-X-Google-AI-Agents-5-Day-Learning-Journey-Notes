@@ -71,6 +71,8 @@ This repository documents everything I learned, practiced, and built during the 
 │
 ├── 📁 Day-5 : Agent2Agent Communication & Agent Deployment directory
 │   ├── README.md
+│   └── day-5a-agent2agent-communication.ipynb
+│   └── day-5b-agent-deployment.ipynb
 │
 ├── 📁 code-labs
 │   └── day-wise Jupyter notebooks
