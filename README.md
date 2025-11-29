@@ -123,14 +123,12 @@ This repository documents everything I learned, practiced, and built during the 
 
 ---
 
-### **Day 5 – Capstone Project**
-🎯 _Your unique project summary here_  
-Examples:
-- Multi-tool personal assistant  
-- RAG-powered intelligent agent  
-- Automated task planner  
-- Domain-specific agent (healthcare, finance, education)
+### **Day 5 – Agent Communication & Deployment**
 
+- Building agent-to-agent communication workflows for collaboration
+- Designing role-based multi-agent systems (planner, researcher, evaluator, etc.)
+- Deploying agents as production-ready services using ADK (REST APIs, configs, runtime)
+- Mini Task: Create a communicating multi-agent system and deploy it as an API
 _Add your architecture, flow, tools used, and results here._
 
 ---
