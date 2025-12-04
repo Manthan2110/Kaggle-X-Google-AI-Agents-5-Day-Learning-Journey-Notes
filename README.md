@@ -204,6 +204,8 @@ Once a CSV is uploaded, **InsightForge AI** automatically:
 - 📄 **Report Generation:** clean structured EDA report with tables & charts  
 - 💬 **Chat Interface:** dataset-grounded natural-language answers  
 
+GitHub Repo of Project : [Link](https://github.com/Manthan2110/MultiAgent-Analytics-Suite)
+
 ---
 
 ## 📚 Resources
