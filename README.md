@@ -134,13 +134,75 @@ _Add your architecture, flow, tools used, and results here._
 ---
 
 ## 🧩 Capstone Project (Detailed)
-> ✍️ *Write 4–5 lines once you complete your project.*  
-Suggested structure:
-- Problem statement  
-- Architecture diagram  
-- Tools & memory used  
-- Final workflow summary  
-- Output examples
+> This project builds InsightForge AI, a fully automated multi-agent data analyst capable of performing end-to-end data exploration in seconds. It integrates specialized agents for EDA, visualization, ML feature importance, clustering, and AI-powered insight generation using LLMs. The system produces interactive dashboards, intelligent summaries, and a structured analytical report from a single dataset upload. A natural-language chat interface allows users to query the dataset conversationally. The solution demonstrates the practical application of agentic AI architecture, turning raw data into actionable insights effortlessly.
+
+### **1. 🧠 Problem Statement**
+
+Traditional EDA is slow, repetitive, and requires coding skills that many beginners and business users lack. Analysts spend significant time cleaning data, generating charts, and interpreting patterns.  
+**InsightForge AI** automates this entire workflow, making insights accessible instantly and eliminating the need for manual coding or complex data exploration.
+
+---
+
+### **2. 🏗 Architecture Diagram (Text Summary)**
+```bash
+User Upload
+↓
+Data Loader Agent
+↓
+EDA Agent
+↓
+Visualization Agent
+↓
+ML Agent (Feature Importance)
+↓
+Clustering Agent (PCA + KMeans)
+↓
+LLM Insights Agent
+↓
+Report Agent
+↓
+Streamlit Dashboard + Chat Interface
+```
+
+
+Each agent performs a specialized task and passes results through a shared context, forming a seamless **multi-agent analytics pipeline**.
+
+---
+
+### **3. 🔧 Tools & Memory Used**
+
+- **LLMs:** Gemini / OpenAI (insight reasoning + chat interface)  
+- **Libraries:** Pandas, NumPy, Scikit-learn, Plotly  
+- **Framework:** Streamlit for interactive UI  
+- **Memory:** Shared AgentContext storing dataset, stats, plots, reports & insights  
+- **ML Models:** RandomForest (feature importance), PCA + KMeans (clustering)
+
+---
+
+### **4. 🚀 Final Workflow Summary**
+
+Once a CSV is uploaded, **InsightForge AI** automatically:
+
+1. Loads and validates the dataset  
+2. Performs full EDA and computes statistics  
+3. Generates interactive Plotly visualizations  
+4. Produces rule-based + LLM-powered insights  
+5. Computes ML feature importance  
+6. Performs PCA-based clustering with explanations  
+7. Generates a structured analytical report  
+8. Enables natural-language chat with the dataset  
+
+**All of this happens in just a few seconds.**
+
+---
+
+### **5. 📤 Output Examples**
+
+- 📊 **Interactive Visualizations:** histograms, boxplots, heatmaps, violin plots, PCA cluster plots  
+- 📈 **ML Outputs:** feature importance bar chart  
+- 🧠 **AI Insights:** trend summaries, outliers, correlations, patterns  
+- 📄 **Report Generation:** clean structured EDA report with tables & charts  
+- 💬 **Chat Interface:** dataset-grounded natural-language answers  
 
 ---
 
