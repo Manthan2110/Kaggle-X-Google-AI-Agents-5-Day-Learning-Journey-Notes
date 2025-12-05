@@ -79,7 +79,6 @@ This repository documents everything I learned, practiced, and built during the 
 │
 ├── 📁 resources
 │   ├── slides/
-│   ├── references.md
 │   └── screenshots/
 │
 ├── LICENSE
