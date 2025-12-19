@@ -49,33 +49,34 @@ This repository documents everything I learned, practiced, and built during the 
 ```bash
 📁 kaggle-google-5-day-ai-agents/
 │
-├── 📁 Day-1-Introduction-to-Agentic-AI
+├── 📁 certificate/
+│   └── kaggle_google_ai_agents_certificate.pdf
+│   └── README.md
+│
+├── 📁 Day-1-Introduction-to-Agentic-AI/
 │   └── README.md
 │   └── day-1a-from-prompt-to-action.ipynb
 │   └── day-1b-agent-architectures.ipynb
 │
-├── 📁 Day-2-Tools-and-Actions
+├── 📁 Day-2-Tools-and-Actions/
 │   └── README.md
 │   └── day-2a-agent-tools.ipynb
 │   └── day-2b-agent-tools-best-practices.ipynb
 │
-├── 📁 Day-3 Context Engineering: Sessions & Memory
+├── 📁 Day-3 Context Engineering: Sessions & Memory/
 │   └── README.md
 │   └── day-3a-agent-sessions.ipynb
 │   └── day-3b-agent-memory.ipynb
 │
-├── 📁 Day-4 : Agent Observability & Agent Evaluation
+├── 📁 Day-4 : Agent Observability & Agent Evaluation/
 │   └── README.md
 │   └── day-4a-agent-observability.ipynb
 │   └── day-4b-agent-evaluation.ipynb
 │
-├── 📁 Day-5 : Agent2Agent Communication & Agent Deployment directory
+├── 📁 Day-5 : Agent2Agent Communication & Agent Deployment directory/
 │   ├── README.md
 │   └── day-5a-agent2agent-communication.ipynb
 │   └── day-5b-agent-deployment.ipynb
-│
-├── 📁 code-labs
-│   └── day-wise Jupyter notebooks
 │
 ├── 📁 resources
 │   ├── slides/
